@@ -1,0 +1,38 @@
+{
+    "books": [
+        {
+            "purpose": "Student",
+            "title": "Python for beginners",
+            "author": "Author 1",
+            "year": 2002,
+            "genre": "Stydy",
+            "length": 105
+        },
+        {
+            "purpose": "Student",
+            "title": "C++ for beginners",
+            "author": "Author 2",
+            "year": 1999,
+            "genre": "Stydy",
+            "length": 110
+        }
+    ],
+    "magazins": [
+        {
+            "purpose": "Girls",
+            "title": "Everything for fashion",
+            "author": "Author 3",
+            "year": 2023,
+            "type": "Fashion",
+            "release": 5
+        },
+        {
+            "purpose": "Girls",
+            "title": "Beauty and fashion",
+            "author": "Author 3",
+            "year": 2023,
+            "type": "Fashion",
+            "release": 8
+        }
+    ]
+}

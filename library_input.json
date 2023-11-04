@@ -1,0 +1,22 @@
+{
+    "books": [
+        {
+          "purpose": "Shefs",
+          "title": "Cooking for shefs",
+          "author": "Author 7",
+          "year": 2016,
+          "genre": "Cooking",
+          "length": 306
+        }
+    ],
+    "magazins": [
+        {
+          "purpose": "Schoolchild",
+          "title": "Algebra for 7 class",
+          "author": "Author 9",
+          "year": 2021,
+          "type": "Study",
+          "release": 6
+        }
+    ]
+}
