@@ -2,11 +2,18 @@ import json
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
 
+# Класс для обработки собственного исключения
+class InvalidYearError(Exception):
+    pass
+
 class Library:
   def __init__(self, purpose, title, author, year):
       self.purpose = purpose
       self.title = title
       self.author = author
+      #собственное исключение
+      if not isinstance(year, int):
+        raise InvalidYearError("Year must be an integer.")
       self.year = year
 
   def to_dict(self):
